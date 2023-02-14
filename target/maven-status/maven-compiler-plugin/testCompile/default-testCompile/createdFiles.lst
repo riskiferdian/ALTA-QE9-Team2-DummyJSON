@@ -1,0 +1,5 @@
+starter/CucumberTestSuite.class
+DummyJSON/Utils/Constant.class
+DummyJSON/Utils/DummyJsonResponses.class
+starter/DummyJSON/DummyJsonAPI.class
+starter/DummyJSON/StepDef/GetSingleProduct.class
