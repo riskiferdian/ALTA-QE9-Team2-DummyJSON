@@ -1,4 +1,4 @@
-package DummyJSON.StepDef;
+package starter.DummyJSON.StepDef;
 
 import DummyJSON.Utils.DummyJsonResponses;
 import io.cucumber.java.en.And;
@@ -8,8 +8,8 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import DummyJSON.DummyJsonAPI;
 import DummyJSON.Utils.Constant;
+import starter.DummyJSON.DummyJsonAPI;
 
 import java.io.File;
 
@@ -41,7 +41,7 @@ public class GetSingleProduct {
 
     @And("validate json schema get all products")
     public void validateJsonSchemaGetAllProducts() {
-        File jsonSchema = new File(Constant.JSON_SCHEMA+"/GetSingleProduct.json");
+        File jsonSchema = new File(Constant.JSON_SCHEMA+"Products/GetSingleProduct.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonSchema));
     }
 

@@ -1,4 +1,4 @@
-package DummyJSON;
+package starter.DummyJSON;
 
 import DummyJSON.Utils.Constant;
 import io.restassured.http.ContentType;
@@ -9,7 +9,7 @@ import java.io.File;
 
 public class DummyJsonAPI {
 
-    public static String GET_SINGLE_PRODUCT = Constant.BASE_URL +"/products/{id}";
+    public static String GET_SINGLE_PRODUCT = Constant.BASE_URL +"products/{id}";
 
     @Step("get single product")
     public void getSingleProduct(int id){
