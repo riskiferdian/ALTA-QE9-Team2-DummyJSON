@@ -11,6 +11,6 @@ Feature: Testing get single product dummy json
     #Negative case
     @Tugas
     Scenario: Get single product with invalid parameter id
-      Given Geti single product with invalid id "xyz"
+      Given Get single product with invalid id "xyz"
       When Send request get single product
       Then Status code should be 404 Not Found

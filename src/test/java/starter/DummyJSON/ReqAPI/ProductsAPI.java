@@ -14,6 +14,11 @@ public class ProductsAPI {
         SerenityRest.given();
     }
 
+    @Step("get invalid all product")
+    public void getInvalidAllProduct(){
+        SerenityRest.given();
+    }
+
     @Step("get single product")
     public void getSingleProduct(int id){
         SerenityRest.given().pathParam("id",id);

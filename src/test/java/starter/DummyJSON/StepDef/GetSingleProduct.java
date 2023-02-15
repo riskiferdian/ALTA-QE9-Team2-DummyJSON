@@ -47,7 +47,7 @@ public class GetSingleProduct {
 
     //NEGATIVE CASE
 
-    @Given("Geti single product with invalid id {string}")
+    @Given("Get single product with invalid id {string}")
     public void getiSingleProductWithInvalidId(String id) {
         productsAPI.getInvalidSingleProduct(id);
     }
