@@ -2,6 +2,7 @@ package starter.DummyJSON.StepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
@@ -30,5 +31,17 @@ public class PostAddNewProduct {
     public void responseBodyPageIsNewProductWithId() {
         File jsonSchema = new File(Constant.JSON_SCHEMA+"Products/AddNewProduct.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonSchema));
+    }
+
+    //Negative Case
+    @Given("Post new product with empty json")
+    public void postNewProductWithEmptyJson() {
+        File json = new File(Constant.JSON_REQUEST+"Products/InvalidAddNewProduct.json");
+        productsAPI.getInvalidAddNewProduct(json);
+    }
+
+    @Then("Status code should be {int} Bad Request")
+    public void statusCodeShouldBeBadRequest(int status) {
+        SerenityRest.then().statusCode(status);
     }
 }
