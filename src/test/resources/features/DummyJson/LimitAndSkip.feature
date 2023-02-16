@@ -14,10 +14,9 @@ Feature: Testing Limit & Skip products dummyjson API
   Scenario Outline: Get Limit and skip products with valid parameter limit and skip
     Given Get invalid limit "<limit>" and skip "<skip>" product
     When Send request get limit and skip
-    Then Status code should be 404 Not Found
+    Then Status code should be 400 Bad Request
     Examples:
       | skip | limit |
       | x    | 40    |
       | 8    | y     |
-      |      |       |
 

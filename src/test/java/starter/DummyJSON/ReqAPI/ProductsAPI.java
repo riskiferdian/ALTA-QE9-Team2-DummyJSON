@@ -18,6 +18,10 @@ public class ProductsAPI {
     public static String UPDATE_PRODUCT = Constant.BASE_URL +"products/{id}";
     public static String LIMIT_SKIP_PRODUCT = Constant.BASE_URL+"products?limit={limit}&skip={skip}&select=title,price";
     public static String All_PRODUCT_CATEGORIES = Constant.BASE_URL+"products/categories";
+    public static String CATEGORY_OF_PRODUCT = Constant.BASE_URL+"products/category/{category}";
+    public static String DELETE_PRODUCT = Constant.BASE_URL+"products/{id}";
+
+
     @Step("get all product")
     public void getAllProduct(){
         SerenityRest.given();
@@ -97,5 +101,24 @@ public class ProductsAPI {
     @Step("get invalid all products categories")
     public void allInvalidProductsCategories(){
         SerenityRest.given();
+    }
+
+    @Step("get category of product")
+    public void getCategoryProduct(String category){
+        SerenityRest.given().pathParam("category",category);
+    }
+    @Step("get invalid category of product")
+    public void getInvalidCategoryProduct(String category){
+        SerenityRest.given().pathParam("category",category);
+    }
+
+    @Step("delete a product")
+    public void deleteProduct(int id){
+        SerenityRest.given().pathParam("id",id);
+    }
+
+    @Step("delete a product")
+    public void invalidDeleteProduct(String id){
+        SerenityRest.given().pathParam("id",id);
     }
 }

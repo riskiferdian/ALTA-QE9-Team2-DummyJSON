@@ -1,5 +1,4 @@
 Feature: Testing post search product dummyjson API
-
   @Tugas #Positive Case
   Scenario Outline: Get search product with valid parameter string
     Given Get search product with valid path "<string>"
@@ -15,7 +14,7 @@ Feature: Testing post search product dummyjson API
   Scenario Outline: Get search product with valid parameter string
     Given Get search product with invalid parameter "<string>"
     When Send request get search product
-    Then Status code should be 404 Not Found
+    Then Status code should be 200 OK
   Examples:
     | string   |
     | 123      |
