@@ -25,9 +25,7 @@ public class GetSingleProduct {
     }
 
     @When("Send request get single product")
-    public void sendRequestGetAllProduct() {
-        SerenityRest.when().get(ProductsAPI.GET_SINGLE_PRODUCT);
-    }
+    public void sendRequestGetAllProduct() {SerenityRest.when().get(ProductsAPI.GET_SINGLE_PRODUCT);}
     @Then("Status code should be {int} OK")
     public void statusCodeShouldBeOK(int status) {
         SerenityRest.then().statusCode(status);
