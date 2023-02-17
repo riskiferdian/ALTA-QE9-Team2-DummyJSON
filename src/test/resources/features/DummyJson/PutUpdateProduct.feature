@@ -18,4 +18,4 @@ Feature: Testing Update a product dummyjsonAPI
   Examples:
     | id |
     | 12 |
-    | 99 |
+    | 98 |
