@@ -1,13 +1,13 @@
-package starter.dummyjson;
+package starter.DummyJSON.ReqAPI;
 
 import io.restassured.http.ContentType;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import starter.dummyjson.Utils.Constant;
+import starter.DummyJSON.Utils.Constant;
 
 import java.io.File;
 
-public class CommentsApi {
+public class CommentsAPI {
     public static String POST_COMMENTS = Constant.BASE_URL + "/comments/add";
     public static String PUT_COMMENTS = Constant.BASE_URL + "/comments/{id}";
     public static String DELETE_SINGLE_COMMENTS = Constant.BASE_URL + "/comments/{id}";

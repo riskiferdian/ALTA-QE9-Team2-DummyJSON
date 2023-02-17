@@ -1,4 +1,4 @@
-package starter.dummyjson;
+package starter.DummyJSON;
 
 public class DummyjsonResponses {
     public static String USER_ID = "user.id";

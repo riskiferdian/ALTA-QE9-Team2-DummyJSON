@@ -1,4 +1,4 @@
-package starter.dummyjson.StepDef.Comments;
+package starter.DummyJSON.StepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -7,9 +7,9 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.dummyjson.CommentsApi;
-import starter.dummyjson.DummyjsonResponses;
-import starter.dummyjson.Utils.Constant;
+import starter.DummyJSON.ReqAPI.CommentsAPI;
+import starter.DummyJSON.DummyjsonResponses;
+import starter.DummyJSON.Utils.Constant;
 
 import java.io.File;
 
@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.*;
 
 public class DeleteCommentsStepDef {
     @Steps
-    CommentsApi commentsApi;
+    CommentsAPI commentsApi;
 
     //Scenario Delete comment with valid id
     @Given("Delete comment with id {int}")
@@ -27,7 +27,7 @@ public class DeleteCommentsStepDef {
 
     @When("send request delete comment")
     public void sendRequestDeleteComment() {
-        SerenityRest.when().delete(CommentsApi.DELETE_SINGLE_COMMENTS);
+        SerenityRest.when().delete(CommentsAPI.DELETE_SINGLE_COMMENTS);
     }
 
     @Then("API should return status code {int}")
@@ -58,7 +58,7 @@ public class DeleteCommentsStepDef {
 
     @When("send invalid request delete comment")
     public void sendInvalidRequestDeleteComment() {
-        SerenityRest.when().delete(CommentsApi.INVALID_DELETE_SINGLE_COMMENTS);
+        SerenityRest.when().delete(CommentsAPI.INVALID_DELETE_SINGLE_COMMENTS);
     }
 
     @And("response body error should be {string}")
@@ -81,6 +81,6 @@ public class DeleteCommentsStepDef {
 
     @When("send request delete comment with filter")
     public void sendRequestDeleteCommentWithFilter() {
-        SerenityRest.when().delete(CommentsApi.INVALID_DELETE_COMMENTS);
+        SerenityRest.when().delete(CommentsAPI.INVALID_DELETE_COMMENTS);
     }
 }

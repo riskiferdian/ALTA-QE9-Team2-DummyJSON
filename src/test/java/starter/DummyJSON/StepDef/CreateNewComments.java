@@ -1,4 +1,4 @@
-package starter.dummyjson.StepDef.Comments;
+package starter.DummyJSON.StepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -6,9 +6,9 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.dummyjson.CommentsApi;
-import starter.dummyjson.DummyjsonResponses;
-import starter.dummyjson.Utils.Constant;
+import starter.DummyJSON.ReqAPI.CommentsAPI;
+import starter.DummyJSON.DummyjsonResponses;
+import starter.DummyJSON.Utils.Constant;
 
 import java.io.File;
 
@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class CreateNewComments {
     @Steps
-    CommentsApi commentsApi;
+    CommentsAPI commentsApi;
 
     //Scenario Post add new comment with invalid path
     @Given("Post add new comment with valid json")
@@ -27,13 +27,13 @@ public class CreateNewComments {
 
     @When("send invalid request post comment")
     public void sendInvalidRequestPostComment() {
-        SerenityRest.when().post(CommentsApi.INVALID_POST_COMMENTS);
+        SerenityRest.when().post(CommentsAPI.INVALID_POST_COMMENTS);
     }
 
     //Scenario Post add new comment with valid path
     @When("send request post comment")
     public void sendRequestPostComment() {
-        SerenityRest.when().post(CommentsApi.POST_COMMENTS);
+        SerenityRest.when().post(CommentsAPI.POST_COMMENTS);
     }
 
     @And("response body post ID should be {int}, user ID {int}, and body {string}")
