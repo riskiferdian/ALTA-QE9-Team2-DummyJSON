@@ -10,18 +10,17 @@ public class GetSingleTodos {
     @Steps
     TodosAPI todosAPI;
 //    POSITIVE CASE
-    @Given("Get a single todo with walid parameter id {int}")
+    @Given("Get a single todos with walid parameter id {int}")
     public void getASingleTodoWithWalidParameterId(int id) {
         todosAPI.getSingleTodos(id);
-
     }
-    @When("Send request get a single todo")
+    @When("Send request get a single todos")
     public void sendRequestGetASingleTodo() {
         SerenityRest.when().get(TodosAPI.GET_SINGLE_TODOS);
     }
-
-    @Given("Get a single todo with invalid parameter {string}")
+//    NEGATIVE CASE
+    @Given("Get a single todos with invalid parameter {string}")
     public void getASingleTodoWithInvalidParameter(String id) {
-        todosAPI.getinvalidSingleTodos(id);
+        todosAPI.getInvalidSingleTodos(id);
     }
 }

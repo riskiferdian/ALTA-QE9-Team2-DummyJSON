@@ -12,21 +12,23 @@ public class GetAllTodos {
     @Steps
     TodosAPI todosAPI;
 
-    @Given("Get all todo with valid parameter")
+//    POSITIVE CASE
+    @Given("Get all todos with valid parameter")
     public void getAllTodoWithValidParameter() {
         todosAPI.getAllTodos();
-
     }
-
-    @When("Send request get all todo")
+    @When("Send request get all todos")
     public void sendRequestGetAllTodo() {
         SerenityRest.when().get(TodosAPI.GET_ALL_TODOS);
     }
-
-    @Given("Get all todo with invalid parameter id {int}")
-    public void getAllTodoWithInvalidParameterId(int id) {
+//    NEGATIVE CASE
+    @Given("Get all todos with invalid parameter id {int}")
+    public void getAllTodoWithInvalidParameterIdId(int id) {
         todosAPI.getInvalidAllTodos(id);
+    }
 
-
+    @When("Send request invalid get all todos")
+    public void sendRequestInvalidGetAllTodo() {
+        SerenityRest.when().get(TodosAPI.GET_INVALID_ALL_TODOS);
     }
 }
