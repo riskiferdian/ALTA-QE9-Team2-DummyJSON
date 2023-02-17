@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing delete user reqres API","Delete user with invalid parameter id","FAILURE","2023-02-14T11:15:12.108+07:00[Asia/Jakarta]","0.0","0.72"

@@ -1,4 +1,5 @@
 Feature: Testing get single product dummy json
+  @Tugas
   #Positive case
   @Tugas
   Scenario: get all product with valid parameter
@@ -8,6 +9,7 @@ Feature: Testing get single product dummy json
     And Response body id should be 2
     And validate json schema get all products
 
+    @Tugas
     #Negative case
     @Tugas
     Scenario: Get single product with invalid parameter id

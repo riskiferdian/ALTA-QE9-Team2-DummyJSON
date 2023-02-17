@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Patch user testing reqres API
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.926 s <<< FAILURE! - in Patch user testing reqres API
+Patch user testing reqres API.Patch user dengan invalid parameter id  Time elapsed: 0.603 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+Patch user testing reqres API.Patch user dengan invalid file json  Time elapsed: 0.62 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+

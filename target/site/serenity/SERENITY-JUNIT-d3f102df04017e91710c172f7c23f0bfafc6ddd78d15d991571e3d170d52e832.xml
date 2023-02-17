@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Testing user login reqres API" skipped="0" tests="3" time="2.11" timestamp="2023-02-14 11:15:20"><testcase name="user login with valid email dan password"/><testcase name="User login with valid email and empty password"/><testcase name="User login with empty email and valid password"/></testsuite>

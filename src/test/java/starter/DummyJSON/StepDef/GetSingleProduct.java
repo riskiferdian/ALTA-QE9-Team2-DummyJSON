@@ -1,5 +1,9 @@
 package starter.DummyJSON.StepDef;
 
+<<<<<<< Updated upstream
+=======
+import starter.DummyJSON.Utils.DummyJsonResponses;
+>>>>>>> Stashed changes
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,8 +11,13 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
+<<<<<<< Updated upstream
 import starter.DummyJSON.Utils.Constant;
 import starter.DummyJSON.ReqAPI.ProductsAPI;
+=======
+import starter.DummyJSON.DummyJsonAPI;
+import starter.DummyJSON.Utils.Constant;
+>>>>>>> Stashed changes
 
 import java.io.File;
 

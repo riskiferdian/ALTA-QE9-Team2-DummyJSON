@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 starter/DummyJSON/StepDef/PostAddNewTodos.class
 starter/DummyJSON/StepDef/GetAllCarts.class
 starter/DummyJSON/ReqAPI/AuthAPI.class
@@ -33,3 +34,20 @@ starter/DummyJSON/StepDef/DeleteComments.class
 starter/DummyJSON/StepDef/GetCartOfUser.class
 starter/DummyJSON/StepDef/GetAllProducts.class
 starter/DummyJSON/StepDef/GetSingleComment.class
+=======
+starter/Reqres/StepDef/PatchUser.class
+starter/Reqres/Utils/Constant.class
+starter/CucumberTestSuite.class
+starter/Reqres/StepDef/ListResource.class
+starter/Reqres/StepDef/ListSingleResource.class
+starter/Reqres/StepDef/ListSingleUser.class
+starter/Reqres/ReqresAPI.class
+starter/Reqres/StepDef/DelayedResponse.class
+starter/Reqres/StepDef/RegisterUser.class
+starter/Reqres/StepDef/ListUser.class
+starter/Reqres/StepDef/UpdateUser.class
+starter/Reqres/StepDef/DeleteUser.class
+starter/Reqres/StepDef/UserLogin.class
+starter/Reqres/Utils/ReqresResponses.class
+starter/Reqres/StepDef/CreateUser.class
+>>>>>>> Stashed changes

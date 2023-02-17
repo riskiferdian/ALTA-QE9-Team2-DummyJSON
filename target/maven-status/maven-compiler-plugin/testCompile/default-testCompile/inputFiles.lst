@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /Users/riskiferdian/Belajar Programming/alterra/project/ALTA-QE9-Team2-DummyJSON/src/test/java/starter/DummyJSON/StepDef/LimitAndSkipProduct.java
 /Users/riskiferdian/Belajar Programming/alterra/project/ALTA-QE9-Team2-DummyJSON/src/test/java/starter/DummyJSON/Utils/Constant.java
 /Users/riskiferdian/Belajar Programming/alterra/project/ALTA-QE9-Team2-DummyJSON/src/test/java/starter/DummyJSON/StepDef/DeleteComments.java
@@ -33,3 +34,20 @@
 /Users/riskiferdian/Belajar Programming/alterra/project/ALTA-QE9-Team2-DummyJSON/src/test/java/starter/DummyJSON/StepDef/GetSingleCart.java
 /Users/riskiferdian/Belajar Programming/alterra/project/ALTA-QE9-Team2-DummyJSON/src/test/java/starter/DummyJSON/StepDef/DeleteProduct.java
 /Users/riskiferdian/Belajar Programming/alterra/project/ALTA-QE9-Team2-DummyJSON/src/test/java/starter/DummyJSON/StepDef/CreateNewComments.java
+=======
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/ListUser.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/ListResource.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/DeleteUser.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/ListSingleResource.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/CucumberTestSuite.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/UpdateUser.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/DelayedResponse.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/CreateUser.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/PatchUser.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/Utils/ReqresResponses.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/UserLogin.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/ReqresAPI.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/Utils/Constant.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/ListSingleUser.java
+/Users/riskiferdian/Belajar Programming/alterra/ALTA-Serenity-QE9-Riski_Ferdian/src/test/java/starter/Reqres/StepDef/RegisterUser.java
+>>>>>>> Stashed changes

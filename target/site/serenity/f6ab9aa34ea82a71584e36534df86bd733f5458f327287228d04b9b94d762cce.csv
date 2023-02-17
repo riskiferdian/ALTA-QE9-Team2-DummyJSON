@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing create user reqres API","Post create new user with empty json file","FAILURE","2023-02-14T11:14:59.064+07:00[Asia/Jakarta]","0.0","7.24"
+"Testing delete user reqres API","Delete user with invalid parameter id","FAILURE","2023-02-14T11:15:12.108+07:00[Asia/Jakarta]","0.0","0.72"
+"Testing get list user reqres API","Get list users with invalid parameter page","FAILURE","2023-02-14T11:15:15.141+07:00[Asia/Jakarta]","0.0","0.61"
+"Patch user testing reqres API","Patch user dengan invalid parameter id","FAILURE","2023-02-14T11:15:16.461+07:00[Asia/Jakarta]","0.0","0.59"
+"Patch user testing reqres API","Patch user dengan invalid file json","FAILURE","2023-02-14T11:15:17.064+07:00[Asia/Jakarta]","0.0","0.61"
+"Testing update user reqres API","Put update user with valid json and invalid parameter id","FAILURE","2023-02-14T11:15:19.648+07:00[Asia/Jakarta]","0.0","0.64"
+"Testing update user reqres API","Put update user with invalid file json and valid id","FAILURE","2023-02-14T11:15:20.301+07:00[Asia/Jakarta]","0.0","0.6"

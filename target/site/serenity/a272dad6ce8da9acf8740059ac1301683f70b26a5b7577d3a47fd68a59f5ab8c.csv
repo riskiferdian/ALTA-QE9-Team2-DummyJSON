@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing get list user reqres API","Get list users with invalid parameter page","FAILURE","2023-02-14T11:15:15.141+07:00[Asia/Jakarta]","0.0","0.61"

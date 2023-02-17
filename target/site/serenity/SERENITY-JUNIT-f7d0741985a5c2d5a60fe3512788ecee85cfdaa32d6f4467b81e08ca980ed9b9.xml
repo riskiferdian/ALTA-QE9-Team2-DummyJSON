@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Testing list single resource reqres API" skipped="0" tests="2" time="0.83" timestamp="2023-02-14 11:15:14"><testcase name="Get list single resource"/><testcase name="Get list single resource with invalid parameter id"/></testsuite>

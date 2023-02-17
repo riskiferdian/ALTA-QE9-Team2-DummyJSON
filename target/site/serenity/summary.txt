@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 Serenity report generated 17-02-2023 15:47
 44 test scenarios (52 tests in all, including 21 rows of test data)
 
 Passed:             41
 Failed:             3
+=======
+Serenity report generated 14-02-2023 11:15
+20 test scenarios 
+
+Passed:             13
+Failed:             7
+>>>>>>> Stashed changes
 Failed with errors: 0
 Compromised:        0
 Pending:            0

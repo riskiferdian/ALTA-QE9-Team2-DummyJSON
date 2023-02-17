@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Testing update user reqres API
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.275 s <<< FAILURE! - in Testing update user reqres API
+Testing update user reqres API.Put update user with valid json and invalid parameter id  Time elapsed: 0.663 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+Testing update user reqres API.Put update user with invalid file json and valid id  Time elapsed: 0.606 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+

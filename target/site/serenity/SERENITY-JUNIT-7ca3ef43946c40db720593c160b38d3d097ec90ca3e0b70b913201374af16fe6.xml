@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Testing register reqres API" skipped="0" tests="3" time="1.9" timestamp="2023-02-14 11:15:17"><testcase name="Register user with valid data"/><testcase name="Register user with valid email and empty password"/><testcase name="Register user with valid password and empty email"/></testsuite>

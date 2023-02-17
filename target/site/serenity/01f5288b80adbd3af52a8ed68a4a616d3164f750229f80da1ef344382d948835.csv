@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< Updated upstream
 "Delete carts","Delete a cart with valid id","SUCCESS","2023-02-17T15:46:22.328+07:00[Asia/Jakarta]","0.0","8.25"
 "Delete carts","Delete a cart with invalid id","SUCCESS","2023-02-17T15:46:30.628+07:00[Asia/Jakarta]","0.0","1.24"
 "Testing delete a product dummyjson API","Delete product with valid id","SUCCESS","2023-02-17T15:46:31.908+07:00[Asia/Jakarta]","0.0","2.2"
@@ -40,3 +41,18 @@
 "Put update cart feature","Put update a cart with invalid json","SUCCESS","2023-02-17T15:47:39.44+07:00[Asia/Jakarta]","0.0","0.95"
 "Testing Update a product dummyjsonAPI","Put update a product with valid data json body","SUCCESS","2023-02-17T15:47:40.42+07:00[Asia/Jakarta]","0.0","2.06"
 "Put update todos","Put update todos with valid id","SUCCESS","2023-02-17T15:47:44.498+07:00[Asia/Jakarta]","0.0","1.09"
+=======
+"Delayed response testing reqres API","Testing delayed response","SUCCESS","2023-02-14T11:15:06.35+07:00[Asia/Jakarta]","0.0","5.7"
+"Testing get single user reqres API","get single user with valid parameter","SUCCESS","2023-02-14T11:15:12.863+07:00[Asia/Jakarta]","0.0","0.42"
+"Testing get single user reqres API","get single user not found or invalid parameter","SUCCESS","2023-02-14T11:15:13.311+07:00[Asia/Jakarta]","0.0","0.22"
+"Testing list resource reqres API","Get list resource","SUCCESS","2023-02-14T11:15:13.558+07:00[Asia/Jakarta]","0.0","0.66"
+"Testing list single resource reqres API","Get list single resource","SUCCESS","2023-02-14T11:15:14.254+07:00[Asia/Jakarta]","0.0","0.29"
+"Testing list single resource reqres API","Get list single resource with invalid parameter id","SUCCESS","2023-02-14T11:15:14.556+07:00[Asia/Jakarta]","0.0","0.55"
+"Patch user testing reqres API","Patch user dengan valid parameter id","SUCCESS","2023-02-14T11:15:15.759+07:00[Asia/Jakarta]","0.0","0.68"
+"Testing register reqres API","Register user with valid data","SUCCESS","2023-02-14T11:15:17.697+07:00[Asia/Jakarta]","0.0","0.63"
+"Testing register reqres API","Register user with valid email and empty password","SUCCESS","2023-02-14T11:15:18.35+07:00[Asia/Jakarta]","0.0","0.67"
+"Testing register reqres API","Register user with valid password and empty email","SUCCESS","2023-02-14T11:15:19.036+07:00[Asia/Jakarta]","0.0","0.59"
+"Testing user login reqres API","user login with valid email dan password","SUCCESS","2023-02-14T11:15:20.914+07:00[Asia/Jakarta]","0.0","0.79"
+"Testing user login reqres API","User login with valid email and empty password","SUCCESS","2023-02-14T11:15:21.721+07:00[Asia/Jakarta]","0.0","0.72"
+"Testing user login reqres API","User login with empty email and valid password","SUCCESS","2023-02-14T11:15:22.463+07:00[Asia/Jakarta]","0.0","0.6"
+>>>>>>> Stashed changes

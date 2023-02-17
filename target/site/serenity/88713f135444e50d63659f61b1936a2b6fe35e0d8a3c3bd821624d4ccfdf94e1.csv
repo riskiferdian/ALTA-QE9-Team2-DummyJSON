@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing user login reqres API","user login with valid email dan password","SUCCESS","2023-02-14T11:15:20.914+07:00[Asia/Jakarta]","0.0","0.79"
+"Testing user login reqres API","User login with valid email and empty password","SUCCESS","2023-02-14T11:15:21.721+07:00[Asia/Jakarta]","0.0","0.72"
+"Testing user login reqres API","User login with empty email and valid password","SUCCESS","2023-02-14T11:15:22.463+07:00[Asia/Jakarta]","0.0","0.6"
