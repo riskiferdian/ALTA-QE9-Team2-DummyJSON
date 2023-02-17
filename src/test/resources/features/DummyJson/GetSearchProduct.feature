@@ -16,6 +16,6 @@ Feature: Testing post search product dummyjson API
     When Send request get search product
     Then Status code should be 200 OK
   Examples:
-    | string   |
-    | 123      |
-    | phone567 |
+    | string  |
+    | 123     |
+    | phone56 |
