@@ -19,7 +19,7 @@ public class LimitAndSkipProduct {
         productsAPI.getLimitSkipProduct(limit, skip);
     }
 
-    @When("Send request get limit and skip")
+    @When("Send request get limit and skip product")
     public void sendRequestGetLimitAndSkip() {
         SerenityRest.when().get(ProductsAPI.LIMIT_SKIP_PRODUCT);
     }

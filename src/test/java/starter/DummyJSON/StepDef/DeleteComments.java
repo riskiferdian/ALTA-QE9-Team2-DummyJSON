@@ -14,7 +14,7 @@ import java.io.File;
 
 import static org.hamcrest.Matchers.*;
 
-public class DeleteCommentsStepDef {
+public class DeleteComments {
     @Steps
     CommentsAPI commentsApi;
 

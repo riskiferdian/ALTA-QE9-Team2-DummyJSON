@@ -13,7 +13,7 @@ import java.io.File;
 
 import static org.hamcrest.Matchers.equalTo;
 
-public class GetSingleCommentStepDef {
+public class GetSingleComment {
     @Steps
     CommentsAPI commentsApi;
 
