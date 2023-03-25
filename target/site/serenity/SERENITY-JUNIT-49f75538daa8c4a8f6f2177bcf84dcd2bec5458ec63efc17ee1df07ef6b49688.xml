@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Testing get single product dummy json" skipped="0" tests="2" time="2.21" timestamp="2023-02-17 03:47:00"><testcase name="get all product with valid parameter"/><testcase name="Get single product with invalid parameter id"/></testsuite>
